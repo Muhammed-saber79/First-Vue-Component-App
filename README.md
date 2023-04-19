@@ -1,4 +1,4 @@
-# part_2
+# First VueJs Component App
 
 ## Project setup
 ```

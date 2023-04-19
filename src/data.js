@@ -1,0 +1,47 @@
+export const books = [
+    {
+        id:1,
+        title: 'book one',
+        author: 'muhammed',
+        image: 'https://picsum.photos/seed/picsum/600',
+        category: 'Art',
+        pages: 105,
+        price: 115,
+    },
+    {
+        id:2,
+        title: 'book two',
+        author: 'majed',
+        image: 'https://picsum.photos/seed/picsum/600',
+        category: 'Art',
+        pages: 103,
+        price: 120,
+    },
+    {
+        id:3,
+        title: 'book three',
+        author: 'alaa',
+        image: 'https://picsum.photos/seed/picsum/600',
+        category: 'design',
+        pages: 40,
+        price: 150,
+    },
+    {
+        id:4,
+        title: 'book four',
+        author: 'majeed',
+        image: 'https://picsum.photos/seed/picsum/600',
+        category: 'fashion',
+        pages: 30,
+        price: 200,
+    },
+    {
+        id:5,
+        title: 'book five',
+        author: 'abdo',
+        image: 'https://picsum.photos/seed/picsum/600',
+        category: 'soft skills',
+        pages: 160,
+        price: 240,
+    }
+]

@@ -166,7 +166,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .more{
         color: green;
     }
@@ -175,5 +175,10 @@
     }
     .none{
         color: red;
+    }
+
+    .card:hover{
+        cursor: pointer;
+        box-shadow: 5px 10px 18px #888888;
     }
 </style>

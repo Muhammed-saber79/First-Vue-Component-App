@@ -17,3 +17,8 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Here are some images
+| ![First Image](./images/1.png) | ![Second Image](./images/1.png) |
+
+

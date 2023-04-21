@@ -11,7 +11,7 @@
         </div>
         <!-- End Of Top Nav -->
 
-        <div class="row" style="margin-top: 90px !important;" v-if="isBooksShown">
+        <div class="row" v-if="isBooksShown" style="margin-top: 3rem;margin-bottom:5rem !important;">
             <div  class="col-sm-12 col-md-6 col-lg-4" v-for="book in books" :key="book.id" :title="book.author"> 
                 <div class="card my-3">
                     <img class="card-img-top" :src="book.image" alt="Title">
@@ -36,8 +36,8 @@
         </div>
         <!-- End Of Books -->
 
-        <div class="row" v-if="isWishListShown">
-            <div v-if="isWishListShown" class="m-auto text-center fs-4" style="margin-top: 90px !important;">
+        <div class="row" style="margin-top: 3rem;margin-bottom:5rem !important;" v-if="isWishListShown">
+            <div v-if="isWishListShown" class="m-auto text-center fs-4">
                 <p v-if="wishList.books.length == 0" class="text-danger">Wish List is Empty till Now... &nbsp;&nbsp; <button @click="hideCart" type="button" class="btn btn-outline-info">Return To Books</button></p>
             </div>
             <div  v-for="book in wishList.books" :key="book.id" :title="book.author" class="col-sm-12 col-md-6 col-lg-4">
@@ -64,8 +64,8 @@
         </div>
         <!-- End Of Books WishList -->
         
-        <div class="row">
-            <div v-if="isWishListShown" class="d-flex justify-content-center w-50 m-auto" style="margin-top: 90px !important;">
+        <div class="row" style="margin-top: 3rem;margin-bottom:5rem !important;">
+            <div v-if="isWishListShown" class="d-flex justify-content-center w-75 m-auto">
                 <div v-if="wishList.books.length !== 0" class="table-responsive w-100">
                     <hr>
                     <h4 class="text-center">Wish List Books Bill</h4>
